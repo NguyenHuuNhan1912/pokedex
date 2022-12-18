@@ -1,0 +1,43 @@
+$mainBackground: rgb(240, 238, 245);
+// Color Id
+$colorId: black;
+// Type
+$typeNormal:red;
+$typeFighting:yellow;
+$typeFlying: green;
+$typePoison: blueviolet;
+$typeGround: rgb(6, 3, 44);
+$typeRock: rgb(189, 10, 40);
+$typeBug: brown;
+$typeGhost: blue;
+$typeSteel: grey;
+$typeFire: rgb(14, 199, 231);
+$typeWater: rgb(240, 94, 10);
+$typeGrass: rgb(240, 12, 118);
+$typeElectric: rgb(76, 235, 14);
+$typePsychic: rgb(7, 80, 70);
+$typeIce: rgb(160, 84, 12);
+$typeDragon: rgb(39, 3, 3);
+$typeDark: rgb(43, 4, 87);
+$typeFairy: rgb(162, 240, 16);
+// Background type
+$backgroundType: red, yellow, green, blueviolet, rgb(6, 3, 44), rgb(189, 10, 40), brown, blue,
+                grey,rgb(14, 199, 231), rgb(240, 94, 10), rgb(240, 12, 118), rgb(76, 235, 14),
+                rgb(7, 80, 70), rgb(160, 84, 12), rgb(39, 3, 3),rgb(43, 4, 87), rgb(162, 240, 16);
+// Classname type
+$classNameType: '.type-item--normal', '.type-item--fighting', '.type-item--flying', '.type-item--poison',
+            '.type-item--ground', '.type-item--rock', '.type-item--bug', '.type-item--ghost', '.type-item--steel',
+            '.type-item--fire', '.type-item--water', '.type-item--grass', '.type-item--electric', '.type-item--psychic',
+            '.type-item--ice', '.type-item--dragon', '.type-item--dark',  '.type-item--fairy';
+
+// Responsive
+$res_main_lg__: 'screen and (max-width: 1199px)';
+$res_main_md__: 'screen and (max-width: 991px)';
+$res_main_sm__: 'screen and (max-width: 767px)';
+$res_main_xm__: 'screen and (max-width: 575px)';
+
+$res_lg: 'screen and (min-width: 992px) and (max-width: 1199px)';
+$res_md: 'screen and (min-width: 768px) and (max-width: 991px)';
+$res_sm: 'screen and (min-width: 576px) and (max-width: 767px)';
+$res_xm: 'screen and (min-width: 321px) and (max-width: 575px)';
+$res_xxm: 'screen and (max-width: 320px)';

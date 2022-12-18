@@ -1,0 +1,71 @@
+@mixin flexLayout() {
+    display: flex;
+    align-items: center;
+}
+@mixin boxShadow($color) {
+    box-shadow: 0 0 5px $color, 0 0 20px $color, 0 0 40px $color, 0 0 60px $color;
+}
+@mixin textGradient($color1, $color2) {
+    background-image: linear-gradient(to right, $color1, $color2);
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+// Responsive
+@mixin responsive_main_lg__() {
+    @media #{$res_main_lg__} {
+        @content;
+    }
+}
+// Main sm vs xm
+@mixin responsive_main_md__() {
+    @media #{$res_main_md__} {
+        @content;
+    }
+}
+
+@mixin responsive_main_sm__() {
+    @media #{$res_main_sm__} {
+        @content;
+    }
+}
+
+@mixin responsive_main_xm__ {
+    @media #{$res_main_xm__} {
+        @content;
+    }
+}
+// Large
+@mixin responsive_lg() {
+    @media #{$res_lg} {
+        @content;
+    }
+}
+
+// Medium
+@mixin responsive_md() {
+    @media #{$res_md} {
+        @content;
+    }
+}
+
+// Small
+@mixin responsive_sm() {
+    @media #{$res_sm} {
+        @content;
+    }
+}
+
+// Extra small
+@mixin responsive_xm() {
+    @media #{$res_xm} {
+        @content;
+    }
+}
+// Extra Extra small
+@mixin responsive_xxm() {
+    @media #{$res_xxm} {
+        @content;
+    }
+}
